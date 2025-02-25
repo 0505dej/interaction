@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, white 50%, black 50%);
+    margin: 0; 
+    height: 100vh; 
+    display: flex;transition: background 0.5s ease-in-out;
+}
+
+.section {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    width: 50%; 
+    height: 100vh;
+    padding-right: 5%;
+    padding-left: 5%;
+    cursor: pointer;
+    transition: width 0.8s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.text {
+    font-size: 13px;
+    color: black;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.hidden-text {
+    opacity: 0;
+}
+
+
+.black .text {
+    color: white; 
+}
+
+.expanded {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,43 @@
+/* .body
+{
+   margin:0px 0px 0px 0px;
+   padding:10px;
+   height:100%;
+   width:100%;
+} */
+
+.bird {
+    padding-top: 350px;
+}
+
+.egg1 {
+    color:rgb(255, 255, 255);
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.egg2 {
+    color:rgb(255, 255, 255);
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.egg1, .egg2 {
+    opacity: 0;  /* Start fully invisible */
+    display: block;  /* Ensures they stay in the layout */
+    transition: opacity 2s ease-in-out;  /* Smooth fade-in */
+}
+
+.title {
+    color: rgb(224, 120, 29); /* Default color */
+    font-size: 300px;
+    text-align: center; 
+    margin-top: 500px;
+    margin-bottom: 300px;
+}
+
+.title:hover {
+    color: rgb(140, 61, 0); /* Change to white on hover */
+}
+
+
